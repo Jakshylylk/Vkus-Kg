@@ -1,0 +1,60 @@
+.edit-container {
+  background-image: url("https://mc.rgo.ru/sites/default/files/styles/full_screen/public/list-image/2553.jpg?itok=kCg2zg3E");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+}
+#add-product {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+#add-product input {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  outline: none;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  margin: 10px;
+}
+.outlined-basic {
+  border: none;
+}
+#add-product select {
+  padding: 20px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#add-product button {
+  color: white;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 1024px) {
+  #add-product {
+    width: 40%;
+  }
+}
+@media (max-width: 770px) {
+  #add-product {
+    width: 55%;
+  }
+}
+@media (max-width: 425px) {
+  #add-product {
+    width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  #add-product {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  #add-product {
+    width: 90%;
+  }
+}

@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.css-96uuyl {
+  margin-left: 24px;
+  width: auto;
+  height: 35px;
+  text-align: center;
+  margin-top: 10px;
+}
+.css-1c32n2y-MuiBadge-root {
+  color: black;
+}
+
+@media (max-width: 770px) {
+  .menu-item {
+    display: none !important;
+  }
+}
+
+/* @media (max-width: 770px) {
+  .css-1oj6349 {
+    display: none;
+  }
+} */

@@ -1,0 +1,439 @@
+.home-container {
+  width: 100%;
+}
+.home-header {
+  width: 100%;
+  background-image: url("https://digital.report/wp-content/uploads/2016/12/Kyirgyizstan-telekom-1078x516.jpg");
+  background-size: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+.home-header__bc {
+  background-color: rgba(00, 00, 00, 0.4);
+  width: 100%;
+  height: 800px;
+}
+.logo {
+  width: 100px;
+}
+.home-header__title {
+  color: white;
+  font-size: 50px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.home-header__title h1 {
+  margin: 0;
+}
+.home-header__text {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+/* ! ======================== SHORO CSS START ========================== */
+.content-shoro {
+  background-image: url("http://www.shoro.kg/wp-content/uploads/2019/05/novyieNN2019.jpg");
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size: 100%;
+}
+.content-shoro__text {
+  width: 30%;
+  text-align: center;
+  margin: 150px auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.content-shoro__wrapper {
+  background: rgba(00, 00, 00, 0.4);
+  height: 1000px;
+}
+/* ? ======================== SHORO CSS END ========================== */
+
+/* ! ======================== ROLA CSS START ========================== */
+.content-rola {
+  background-image: url("https://www.womensrunning.com/wp-content/uploads/2014/10/shutterstock_174137417.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.rola-wrapper {
+  background: rgba(00, 00, 00, 0.4);
+}
+.content-rola__text {
+  display: flex;
+  padding: 50px 0px;
+}
+
+.content-rola__text p {
+  width: 30%;
+  font-size: 25px;
+  padding: 0px 50px;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+}
+.content-rola__text img {
+  width: 30%;
+  margin: 0 auto;
+}
+/* ? ======================== ROLA CSS END ========================== */
+
+.tea-content {
+  background-image: url("https://letsgo.kg/data/product_line/tea-limon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.tea-wrapper {
+  background: rgba(00, 00, 00, 0.5);
+  display: flex;
+  padding: 50px 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.tea-content img {
+  width: 30%;
+  height: 400px;
+  padding: 50px;
+}
+/* ! =============================================== */
+@media all and(max-width: 1680px) {
+  .home-header {
+    width: 100%;
+    background-image: url("https://digital.report/wp-content/uploads/2016/12/Kyirgyizstan-telekom-1078x516.jpg");
+    background-size: 100%;
+    height: 734px;
+    background-repeat: no-repeat;
+  }
+  .home-header__bc {
+    background-color: rgba(00, 00, 00, 0.4);
+    width: 100%;
+    height: 734px;
+  }
+  .home-header__title {
+    margin-top: 0px;
+  }
+}
+/* ? =============================================== */
+
+/* ! =============================================== */
+@media (max-width: 1445px) {
+  .home-header__title {
+    font-size: 45px;
+  }
+  .home-header {
+    height: 689px;
+  }
+  .home-header__bc {
+    height: 690px;
+  }
+
+  .content-shoro {
+    height: 810px;
+  }
+}
+@media (max-width: 1030px) {
+  .home-header__title {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .home-header {
+    height: 490px;
+  }
+  .home-header__bc {
+    height: 490px;
+  }
+
+  .content-shoro {
+    height: 575px;
+  }
+  .content-shoro__wrapper {
+    height: 575px;
+  }
+  .content-shoro__text {
+    margin-top: 0 auto;
+  }
+  .content-rola__text img {
+    width: 50%;
+    margin: 0 auto;
+    height: 436px;
+  }
+  .content-rola__text p {
+    width: 40%;
+  }
+  .tea-wrapper {
+    display: block;
+  }
+  .tea-content img {
+    width: 30%;
+    height: 400px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .phone-number {
+    width: 70%;
+  }
+  .tea-wrapper {
+    height: 700px;
+  }
+  .tea-wrapper {
+    height: 700px;
+  }
+  .tea-content img {
+    float: left;
+    width: 40%;
+    margin: 0px 15px;
+  }
+}
+@media (max-width: 770px) {
+  .home-header {
+    height: 365px;
+  }
+  .home-header__bc {
+    height: 367px;
+  }
+  .home-header__title {
+    font-size: 25px;
+  }
+  .home-header__text {
+    width: 50%;
+  }
+  .content-shoro {
+    height: 430px;
+  }
+  .content-shoro__wrapper {
+    height: 430px;
+  }
+  .content-shoro__text {
+    width: 50%;
+    margin-top: 0px;
+  }
+  .content-rola {
+    height: 500px;
+  }
+  .rola-wrapper {
+    height: 500px;
+  }
+  .content-rola__text img {
+    height: 380px;
+  }
+  .content-rola__text p {
+    font-size: 20px;
+  }
+  .tea-content {
+    height: 655px;
+  }
+  footer,
+  .footer-container {
+    height: 430px;
+  }
+  .footr-wrapper {
+    width: 65%;
+  }
+  .footer-icons {
+    width: 45%;
+  }
+  .phone-number {
+    width: 50%;
+  }
+}
+@media (max-width: 430px) {
+  .home-header {
+    height: 202px;
+  }
+  .home-header__bc {
+    height: 202px;
+  }
+  .home-header__title {
+    width: 35%;
+    font-size: 15px;
+  }
+  .home-header__title h1 {
+    margin-top: -5px;
+  }
+  .home-header__text {
+    width: 70%;
+    font-size: 10px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .content-shoro {
+    height: 239px;
+  }
+  .content-shoro__wrapper {
+    height: 239px;
+  }
+  .content-shoro__text {
+    width: 100%;
+    margin-top: -40px;
+    font-size: 15px;
+  }
+  .content-rola {
+    height: 285px;
+  }
+  .rola-wrapper {
+    height: 285px;
+    display: block;
+  }
+  .content-rola__text img {
+    height: 150px;
+    width: 30%;
+    margin: -20px 10px 0px 10px;
+    float: left;
+  }
+  .content-rola__text p {
+    width: 65%;
+    font-size: 15px;
+    margin-top: -55px;
+    padding: 30px 0px 0px 0px;
+  }
+  .tea-content {
+    height: 364px;
+  }
+  .tea-wrapper {
+    height: 364px;
+  }
+  .tea-wrapper p {
+    font-size: 10px;
+    margin: 3px 0;
+  }
+  .tea-content img {
+    width: 35%;
+    height: 200px;
+  }
+  footer,
+  .footer-container {
+    height: 239px;
+  }
+  .footr-wrapper {
+    font-size: 10px;
+    width: 85%;
+    height: 139px;
+  }
+  .footr-text {
+    font-size: 10px;
+    width: 100%;
+  }
+  .footer-icons {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+@media (max-width: 380px) {
+  .home-header {
+    height: 179px;
+  }
+  .home-header__bc {
+    height: 179px;
+  }
+  .home-header__title {
+    width: 40%;
+    font-size: 15px;
+    margin-top: -26px;
+  }
+  .home-header__text {
+    width: 70%;
+    font-size: 8px;
+  }
+  .content-shoro,
+  .content-shoro__wrapper {
+    height: 211px;
+  }
+  .content-shoro__text {
+    width: 100%;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  .content-rola {
+    height: 250px;
+  }
+  .content-rola__text p {
+    width: 65%;
+    font-size: 10px;
+    margin-top: -55px;
+    padding: 30px 0px 0px 0px;
+  }
+  .tea-content,
+  .tea-wrapper {
+    height: 321px;
+  }
+  .tea-content img {
+    width: 35%;
+    height: 125px;
+  }
+  footer,
+  .footer-container {
+    height: 210px;
+  }
+  .footr-wrapper {
+    height: 110px;
+  }
+  .footer-header h2 {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 330px) {
+  .home-header,
+  .home-header__bc {
+    height: 154px;
+  }
+  .home-header__title {
+    width: 50%;
+    font-size: 10px;
+    margin: 0 auto;
+    margin-left: 120px;
+  }
+  .home-header__text {
+    width: 70%;
+    font-size: 8px;
+  }
+  .content-shoro,
+  .content-shoro__wrapper {
+    height: 180px;
+  }
+  .content-shoro__text {
+    width: 100%;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  .content-rola {
+    height: 214px;
+  }
+  .content-rola__text p {
+    width: 65%;
+    font-size: 10px;
+    margin-top: -55px;
+    padding: 30px 0px 0px 0px;
+  }
+  .tea-content,
+  .tea-wrapper {
+    height: 274px;
+  }
+  .tea-content img {
+    width: 35%;
+    height: 125px;
+  }
+  .second-block-text {
+    display: none;
+  }
+  footer,
+  .footer-container {
+    height: 179px;
+  }
+  .footer-icons {
+    display: none;
+  }
+  .footr-wrapper {
+    height: 110px;
+  }
+  .footer-header h2 {
+    margin-top: -20px;
+  }
+}

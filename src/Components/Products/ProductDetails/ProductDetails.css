@@ -1,0 +1,15 @@
+.details-container {
+  background-image: url("https://www.ktrk.kg/img/thumbnail/125351492528701_big.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.css-1kq88ap-MuiPaper-root-MuiAlert-root {
+  width: 77%;
+}
+
+@media (max-width: 1445px) {
+  .details-container {
+    height: 864px;
+  }
+}

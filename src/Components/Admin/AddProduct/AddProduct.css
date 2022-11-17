@@ -1,0 +1,56 @@
+.add-container {
+  background-image: url("https://mfa.gov.kg/uploads/content/19325/df8ad578-78d4-3b5f-aa1d-b66c72f9abef.jpg");
+  background-size: 100%;
+  height: 935px;
+  background-repeat: no-repeat;
+}
+#add-product {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+#add-product input {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  outline: none;
+}
+.outlined-basic {
+  border: none;
+}
+#add-product select {
+  padding: 20px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#add-product button {
+  color: white;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 1024px) {
+  #add-product {
+    width: 40%;
+  }
+}
+@media (max-width: 770px) {
+  #add-product {
+    width: 55%;
+  }
+}
+@media (max-width: 425px) {
+  #add-product {
+    width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  #add-product {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  #add-product {
+    width: 100%;
+  }
+}

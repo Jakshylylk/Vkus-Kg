@@ -1,0 +1,15 @@
+.cardText {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  height: 3.9em;
+}
+.css-vj1n65-MuiGrid-root {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

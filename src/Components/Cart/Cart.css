@@ -1,0 +1,17 @@
+.cart-container {
+  background-image: url("https://too.kg/wp-content/uploads/Kyrgyzstan-10-1024x666.jpg");
+  background-size: 100%;
+  height: 1085px;
+  background-repeat: no-repeat;
+}
+.deleteIconBasket:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: red;
+}
+.css-1oqqzyl-MuiContainer-root {
+  padding-top: 50px;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  margin-top: 50px;
+}

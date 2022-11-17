@@ -1,0 +1,44 @@
+footer {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOScohiwvAu45En2i0-mC1-9gmxg4XPDMsAg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer-container {
+  background: rgba(00, 00, 00, 0.5);
+}
+.footr-wrapper {
+  width: 30%;
+  margin: 0 auto;
+  padding: 50px 15px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-icons {
+  display: flex;
+  width: 50%;
+  margin: 30px auto;
+}
+.footer-icons div {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.whatsApp,
+.instagram,
+.facebook {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 90px;
+  background: white;
+  margin: 10px;
+}
+.phone-number {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.phone-number p {
+  margin-left: 20px;
+}
